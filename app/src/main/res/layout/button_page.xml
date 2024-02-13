@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_design">
+
+    <TextView
+        android:id="@+id/introTextView"
+        android:layout_width="282dp"
+        android:layout_height="70dp"
+        android:text="Identification"
+        android:textColor="#FF000000"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/instructionTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47" />
+
+    <TextView
+        android:id="@+id/instructionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Choose ID Type"
+        android:textColor="#FF000000"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="904dp"
+        android:src="@drawable/nwi_logo"
+        app:layout_constraintDimensionRatio="H,10:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mail_button"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="264dp"
+        android:backgroundTint="@color/purple_200"
+        android:gravity="center"
+        android:text="Mail/Letter"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/stateId_button"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="508dp"
+        android:backgroundTint="@color/purple_200"
+        android:gravity="center"
+        android:text="State ID"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/driversId_button"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="392dp"
+        android:layout_marginTop="264dp"
+        android:backgroundTint="@color/purple_200"
+        android:gravity="center"
+        android:text="Drivers ID"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/manual_button"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="392dp"
+        android:layout_marginTop="508dp"
+        android:backgroundTint="@color/purple_200"
+        android:gravity="center"
+        android:text="Manual Input"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
